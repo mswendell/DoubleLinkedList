@@ -71,19 +71,3 @@ list will act correctly when given bad input. All 9000 tests from the tester cur
 IUDoubleLinkedList, so I can assume with a fair amount of certainty there are little to no bugs remaining in my list. 
 
 
-DISCUSSION:
- 
-I found the entire project to be pretty satisfying, being able to learn how to use the ListTester and using it to finish a 
-variety of projects. Also, the importance of Test-Driven development was interesting to learn and use throughout the process. 
-Early on while using the ListTester I found it a little tedious to include many of the testing scenarios and therefore used 
-the minimum amount I thought was necessary. It wasn’t until at one point I added an additional scenario that I found I had 
-made a small bug that went unseen until this particular case was included. This convinced me to continue and add almost all 
-the test scenarios that were planned out originally.
-
-The IUDoubleLinkedList was fairly straightforward to complete being that it was in essence a SingleLinkedList with additional 
-functionality. I started off originally creating each method like the SingleLinkedList and added the node links as needed. 
-Once the ListIterator was introduced I decided to revise each method to instead use the ListIterators functionality to 
-complete the same functionality. This not only made the program smaller, but also easier to debug. Altogether, the ListTester 
-class made it simple to debug failed tests or exceptions and create a fully working IUDoubleLinkedList. Working through each 
-type of list really helped me learn the differences and how to implement each one correctly. It was really helpful being able 
-to transition from one list implementation to another while seeing the benefits and drawbacks of each kind.
